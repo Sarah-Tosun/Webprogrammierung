@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quizschema>
+       <Fragenkatalog FragenkatologBezeichnung="1" AnzahlFragen="1">
+              <Fragen>
+                     <Fragetext Timeout="0">Welcher Mechanismus kann unter Unix zur Kommunikation über das Netzwerk verwendet werden?
+						<Antworten>
+                            <Antwort correct="true">Sockets</Antwort>
+                            <Antwort correct="false">Message Queues</Antwort>
+                            <Antwort correct="false">Pipes</Antwort>
+                            <Antwort correct="false">Semaphore</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                 </Fragen>
+          </Fragenkatalog>
+</Quizschema>  

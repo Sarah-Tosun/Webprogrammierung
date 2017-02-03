@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quizschema xmlns="http://www.hs-weingarten.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.hs-weingarten.de Quizschema.xsd">
+       <Fragenkatalog FragenkatologBezeichnung="1" AnzahlFragen="1">
+              <Fragen>
+                     <Fragetext Timeout="25">Welcher Mechanismus kann unter Unix zur Kommunikation über das Netzwerk verwendet werden?
+						<Antworten>
+                            <Antwort>Sockets</Antwort>
+                            <Antwort>Message Queues</Antwort>
+                            <Antwort>Pipes</Antwort>
+                            <Antwort>Semaphore</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                 </Fragen>
+          </Fragenkatalog>
+   </Quizschema>  

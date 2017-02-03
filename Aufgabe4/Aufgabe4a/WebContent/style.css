@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.10.2016, 05:26:25
+    Author     : Gruppe 4
+*/
+body {
+    font-family: verdana;
+    background-color: gray;
+}
+div.container {
+    width: 1024px;
+    height: 660px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    margin: 0px 20px 0px 20px;
+}
+section {
+    float: left;
+    width: 400px;
+    height: 280px;
+    border: #ccff90 5px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 180px 10px 10px 200px;
+    background-color: #64dd17;
+}
+
+aside.eins {
+    max-width: 100%;
+    height: 220px;
+    border: #64dd17 2px solid;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    padding: 0px 10px 10px 10px;
+    margin: 0 20px 10px 660px;
+	background-color: #b2ff59;
+}
+
+
+#unten {
+    border: #64dd17 1px;
+    border-top: dotted;
+    border-color: wheat;
+    float: bottom;
+    margin: 20px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+}
+#icon {
+    width:35px; 
+    height:35px;
+}
+
+table {
+	width: 100%;
+}
+
+table#cat td {
+	padding: 10px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    background-color: #e6ee9c;
+}
+
+table#play td{
+	border-bottom: 1px gray solid;
+}
+table.tableFragen td{
+	float:left;
+	width: 500px;
+}
+table.tableAntworten td{
+	width: 500px;
+}
+
+input#startbutton{
+ visibility:hidden;   
+}
+div#fragenAnzeige{
+    visibility:hidden;
+	position:absolute;
+	top: 250px;
+    left: 250px;
+}
+

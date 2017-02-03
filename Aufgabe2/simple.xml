@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quizschema xmlns="http://www.hs-weingarten.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.hs-weingarten.de Quizschema.xsd">
+       <Fragenkatalog FragenkatologBezeichnung="2" AnzahlFragen="6">
+              <Fragen>
+                     <Fragetext Timeout="">Welcher Mechanismus kann unter Unix zur Kommunikation über das Netzwerk verwendet werden?
+						<Antworten>
+                            <Antwort>Sockets</Antwort>
+                            <Antwort>Message Queues</Antwort>
+                            <Antwort>Pipes</Antwort>
+                            <Antwort>Semaphore</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="">Die Hauptstadt von Italien ist:
+						<Antworten>
+                            <Antwort>Rom</Antwort>
+                            <Antwort>Athen</Antwort>
+                            <Antwort>Bonn</Antwort>
+                            <Antwort>Madrid</Antwort>
+                        </Antworten>
+					 </Fragetext Timeout="">
+					 <Fragetext>Die Quadratwurzel von 100 ist:
+						<Antworten>
+                            <Antwort>10</Antwort>
+                            <Antwort>2,76</Antwort>
+                            <Antwort>5</Antwort>
+                            <Antwort>1</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="">1 + 1 = ?
+						<Antworten>
+                            <Antwort>2</Antwort>
+                            <Antwort>1</Antwort>
+                            <Antwort>3</Antwort>
+                            <Antwort>4</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                     <Fragetext Timeout="">Spinnen...
+						<Antworten>
+                            <Antwort>...haben 8 Beine/Antwort>
+                            <Antwort>...sind Insekten</Antwort>
+                            <Antwort>...sind Vögel</Antwort>
+                            <Antwort>...werden bis zu 100 Jahre alt</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="">Die Hauptstadt von Spanien ist:
+						<Antworten>
+                            <Antwort>Madrid</Antwort>
+                            <Antwort>Barcelona</Antwort>
+                            <Antwort>Rom</Antwort>
+                            <Antwort>London</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                 </Fragen>
+          </Fragenkatalog>
+   </Quizschema>  

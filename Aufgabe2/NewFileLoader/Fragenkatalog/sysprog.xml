@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Quizschema>
+         <Fragenkatalog FragenkatologBezeichnung="test attribute" AnzahlFragen="test attribute">
+               <Fragen>
+                     <Fragetext Timeout="30">Ein Thread soll auf ein durch einen anderen Thread ausgelöstes Ereignis warten. Welcher Mechanismus ist geeignet?
+                           <Antworten>
+                                 <Antwort correct="true">nur Semaphore</Antwort>
+                                 <Antwort correct="false">nur Mutex</Antwort>
+                                 <Antwort correct="false">weder Semaphore noch Mutexe</Antwort>
+                                 <Antwort correct="false">sowohl Semaphore als auch Mutexe</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="20">Der Systemaufruf fork...
+                           <Antworten>
+                                 <Antwort correct="true">...erzeugt einen neuen Prozess, der das gleiche Programm ausführt.</Antwort>
+                                 <Antwort correct="false">...erzeugt einen neuen Prozess, der ein anderes Programm ausführt.</Antwort>
+                                 <Antwort correct="false">...erzeugt einen neuen Thread.</Antwort>
+                                 <Antwort correct="false">...ist das logische Gegenstück zum Aufruf knife.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="30">In einem Signalhandler...
+                           <Antworten>
+                                 <Antwort correct="true">...dürfen nur bestimmte Funktionen aufgerufen werden.</Antwort>
+                                 <Antwort correct="false">...kann man problemlos alles machen, was man auch im regulären Programmcode macht.</Antwort>
+                                 <Antwort correct="false">...dürfen keine Fließkommaoperationen durchgeführt werden.</Antwort>
+                                 <Antwort correct="false">...ist nur der Systemaufruf write verboten.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="30">Sie möchten eine Datenstruktur vor gleichzeitigem Zugriff aus mehreren Threads schützen. Welcher Mechanismus ist dafür geeignet?
+                           <Antworten>
+                                 <Antwort correct="true">sowohl Semaphore als auch Mutexe</Antwort>
+                                 <Antwort correct="false">nur Semaphore</Antwort>
+                                 <Antwort correct="false">nur Mutexe</Antwort>
+                                 <Antwort correct="false">nur Signale</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="30">Es soll darauf gewartet werden, dass Daten eintreffen, allerdings nur eine bestimmte Zeit. Wie kann man das umsetzen?
+                           <Antworten>
+                                 <Antwort correct="true">mit dem Systemaufruf select</Antwort>
+                                 <Antwort correct="false">durch einen zusätzlichen Timeout-Parameter bei read oder recv</Antwort>
+                                 <Antwort correct="false">gar nicht</Antwort>
+                                 <Antwort correct="false">durch Setzen des Timeout-Status mit fcntl</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="0">Mit welchem Systemaufruf kann man den Port festlegen, auf dem ein Serverprogramm auf Verbindungen wartet?
+                           <Antworten>
+                                 <Antwort correct="true">bind</Antwort>
+                                 <Antwort correct="false">accept</Antwort>
+                                 <Antwort correct="false">setsock</Antwort>
+                                 <Antwort correct="false">open</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="45">Während eines read-Aufrufs tritt ein Signal auf und wird durch einen Signalhandler abgearbeitet (SA_RESTART nicht gesetzt). Was passiert?
+                           <Antworten>
+                                 <Antwort correct="true">Der Aufruf kehrt unter Umständen mit weniger Daten als angefordert oder EINTR zurück.</Antwort>
+                                 <Antwort correct="false">Es werden auf jeden Fall so viele Daten gelesen wie angefordert.</Antwort>
+                                 <Antwort correct="false">Die Daten gehen verloren.</Antwort>
+                                 <Antwort correct="false">Das Programm wird in solchen Fällen vom Betriebssystem abgebrochen.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="20">Beim Lesen aus einer Pipe meldet der Aufruf read das Dateiende, wenn...
+                           <Antworten>
+                                 <Antwort correct="true">...alle Schreib-Deskriptoren für die Pipe geschlossen und alle Daten aus der Pipe gelesen wurden.</Antwort>
+                                 <Antwort correct="false">...der Leser ein spezielles Signal erhält.</Antwort>
+                                 <Antwort correct="false">...der schreibende Prozess fork aufruft.</Antwort>
+                                 <Antwort correct="false">...^D in die Pipe geschrieben wird.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="30">Was passiert mit einem Shared-Memory-Objekt, wenn es nicht manuell gelöscht wird?
+                           <Antworten>
+                                 <Antwort correct="true">Es bleibt weiterhin bestehen, bis es von Hand oder durch einen Reboot gelöscht wurde.</Antwort>
+                                 <Antwort correct="false">Es wird zerstört, wenn sich der Prozess beendet, der es erzeugt hat.</Antwort>
+                                 <Antwort correct="false">Es wird zerstört, wenn kein Prozess mehr auf es zugreift.</Antwort>
+                                 <Antwort correct="false">Der Garbage-Collector des Betriebssystems zerstört es, wenn der Speicher knapp wird.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="0">Welches dieser Signale kann nicht abgefangen werden?
+                           <Antworten>
+                                 <Antwort correct="true">SIGKILL</Antwort>
+                                 <Antwort correct="false">SIGTERM</Antwort>
+                                 <Antwort correct="false">SIGINT</Antwort>
+                                 <Antwort correct="false">SIGPIPE</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="30">Was ist ein Zombie-Prozess unter Unix?
+                           <Antworten>
+                                 <Antwort correct="true">Ein Prozess, dessen Exit-Status noch nicht mittels wait abgefragt wurde.</Antwort>
+                                 <Antwort correct="false">Ein Daemon-Prozess, der durch den Aufruf zombie immun gegen das KILL-Signal gemacht wurde.</Antwort>
+                                 <Antwort correct="false">Ein Prozess, der nur nachts gestartet werden kann.</Antwort>
+                                 <Antwort correct="false">Ein Computervirus.</Antwort>
+                           </Antworten>
+                     </Fragetext>
+                     <Fragetext Timeout="0">Welches Signal (sofern nicht ignoriert) empfängt ein Elternprozess, wenn sich einer seiner Kindprozesse beendet?
+                           <Antworten>
+                                 <Antwort correct="true">SIGCHLD</Antwort>
+                                 <Antwort correct="false">SIGSYS</Antwort>
+                                 <Antwort correct="false">SIGSEGV</Antwort>
+                                 <Antwort correct="false">SIGABRT</Antwort>
+                           </Antworten>
+                     </Fragetext>
+               </Fragen>
+         </Fragenkatalog>
+   </Quizschema>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quizschema>
+       <Fragenkatalog FragenkatologBezeichnung="2" AnzahlFragen="6">
+              <Fragen>
+                     <Fragetext Timeout="0">Welcher Mechanismus kann unter Unix zur Kommunikation über das Netzwerk verwendet werden?
+						<Antworten>
+                            <Antwort correct="true">Sockets</Antwort>
+                            <Antwort correct="false">Message Queues</Antwort>
+                            <Antwort correct="false">Pipes</Antwort>
+                            <Antwort correct="false">Semaphore</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="0">Die Hauptstadt von Italien ist:
+						<Antworten>
+                            <Antwort correct="true">Rom</Antwort>
+                            <Antwort correct="false">Athen</Antwort>
+                            <Antwort correct="false">Bonn</Antwort>
+                            <Antwort correct="false">Madrid</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="0">Die Quadratwurzel von 100 ist:
+						<Antworten>
+                            <Antwort correct="true">10</Antwort>
+                            <Antwort correct="false">2,76</Antwort>
+                            <Antwort correct="false">5</Antwort>
+                            <Antwort correct="false">1</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="0">1 + 1 = ?
+						<Antworten>
+                            <Antwort correct="true">2</Antwort>
+                            <Antwort correct="false">1</Antwort>
+                            <Antwort correct="false">3</Antwort>
+                            <Antwort correct="false">4</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                     <Fragetext Timeout="0">Spinnen...
+						<Antworten>
+                            <Antwort correct="true">...haben 8 Beine</Antwort>
+                            <Antwort correct="false">...sind Insekten</Antwort>
+                            <Antwort correct="false">...sind Vögel</Antwort>
+                            <Antwort correct="false">...werden bis zu 100 Jahre alt</Antwort>
+                        </Antworten>
+					 </Fragetext>
+					 <Fragetext Timeout="0">Die Hauptstadt von Spanien ist:
+						<Antworten>
+                            <Antwort correct="true">Madrid</Antwort>
+                            <Antwort correct="false">Barcelona</Antwort>
+                            <Antwort correct="false">Rom</Antwort>
+                            <Antwort correct="false">London</Antwort>
+                        </Antworten>
+					 </Fragetext>
+                 </Fragen>
+          </Fragenkatalog>
+   </Quizschema>  
